@@ -62,7 +62,7 @@ console.log(airportsEmissionsFr);
 
 function createVisualizationsQ2(gares, trainsByStations, airportsEmissionsFr, EmissionsPerAirport) {
 
-
+/*
   var filter125 = {
     $schema: "https://vega.github.io/schema/vega-lite/v5.json",
     width: 900,
@@ -173,7 +173,7 @@ function createVisualizationsQ2(gares, trainsByStations, airportsEmissionsFr, Em
   };
   vegaEmbed("#filter_2", filter125);
 
-
+*/
 
 }
 
