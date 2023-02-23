@@ -13,7 +13,7 @@
 
 .image-container img {
   display: block;
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
@@ -21,18 +21,18 @@
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 25%;
+  width: 50%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 80;
   transition: opacity 0.3s ease;
 }
 
 .image-container:hover::before {
-  opacity: 1;
+  opacity: 0.2;
 }
-  </style?
+  </style>
 
 
     <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
@@ -111,11 +111,12 @@
         <br><br>
         <br><br>
 
-        <h2 class="title is-4">Bar Chart Visualization with Multiple View</h2>
+        <h2 class="title is-4">Additional: Multiple View</h2>
             <center>
         <div id="selection_3"></div>
       </center>
-      
+      <br>
+      <p><i> <center> Syncronized Double Map Visualization </center> </i><br></p>
 
 
 
@@ -127,20 +128,24 @@
        
         <div id="selection_4"></div>
       </div>
-      <h2 class="title is-4">Airports in the world</h2>
+      <h2 class="title is-4"></h2>
 
       <center><div id="selection_5"></div></center>
     </div>
+    <br>
+    <p><i> <center> Airports in the world </center> </i><br></p>
 
     <br><br>
-    <p>Consider the emissions through all these.</p>
+    <p>Consider the emissions through all these red points. Following figure just shows an estimate of emissions through airports.</p>
+    <br>
   
-  
-    <img>
+    <center><div class="image-container">
+    <img src="data/Picture4.jpg" alt="Example Image">
+    </div>
+    <br>
+    <p><i> <center> Source: Airport Council International </center> </i><br></p>
 
-<div class="image-container">
-  <img src="data/Picture4.jpg" alt="Example Image">
-</div>
+
 
          <!--
     </section>
@@ -202,6 +207,6 @@
     <script src="./correction_exercice3.js"></script>
     <script src="./correction_exercice4.js"></script>
     <script src="./correction_exercice5.js"></script>
-   
+    <center><p> -----------------------------------  </p></center>
   </body>
 </html>
